@@ -10,6 +10,7 @@ import * as actions from './store/actions/index';
 
 const asyncCheckout = asyncComponent(() => {
   return import('./containers/Checkout/Checkout');
+  //Hello World
 });
 
 const asyncOrders = asyncComponent(() => {
